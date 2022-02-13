@@ -1,0 +1,9 @@
+version: "3.2"
+
+services:
+    flask-jinja:
+        build: ./
+        container_name: flask-jinja
+        restart: always
+        ports:
+            - 5000:4000
